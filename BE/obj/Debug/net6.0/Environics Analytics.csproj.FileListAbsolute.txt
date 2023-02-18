@@ -1,0 +1,28 @@
+C:\Environics Analytics\bin\Debug\net6.0\appsettings.Development.json
+C:\Environics Analytics\bin\Debug\net6.0\appsettings.json
+C:\Environics Analytics\bin\Debug\net6.0\Environics Analytics.exe
+C:\Environics Analytics\bin\Debug\net6.0\Environics Analytics.deps.json
+C:\Environics Analytics\bin\Debug\net6.0\Environics Analytics.runtimeconfig.json
+C:\Environics Analytics\bin\Debug\net6.0\Environics Analytics.dll
+C:\Environics Analytics\bin\Debug\net6.0\Environics Analytics.pdb
+C:\Environics Analytics\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Environics Analytics\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Environics Analytics\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Environics Analytics\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Environics Analytics\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Environics Analytics\obj\Debug\net6.0\Environics Analytics.csproj.AssemblyReference.cache
+C:\Environics Analytics\obj\Debug\net6.0\Environics Analytics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Environics Analytics\obj\Debug\net6.0\Environics Analytics.AssemblyInfoInputs.cache
+C:\Environics Analytics\obj\Debug\net6.0\Environics Analytics.AssemblyInfo.cs
+C:\Environics Analytics\obj\Debug\net6.0\Environics Analytics.csproj.CoreCompileInputs.cache
+C:\Environics Analytics\obj\Debug\net6.0\Environics Analytics.MvcApplicationPartsAssemblyInfo.cs
+C:\Environics Analytics\obj\Debug\net6.0\Environics Analytics.MvcApplicationPartsAssemblyInfo.cache
+C:\Environics Analytics\obj\Debug\net6.0\staticwebassets.build.json
+C:\Environics Analytics\obj\Debug\net6.0\staticwebassets.development.json
+C:\Environics Analytics\obj\Debug\net6.0\scopedcss\bundle\Environics Analytics.styles.css
+C:\Environics Analytics\obj\Debug\net6.0\Environics Analytics.csproj.CopyComplete
+C:\Environics Analytics\obj\Debug\net6.0\Environics Analytics.dll
+C:\Environics Analytics\obj\Debug\net6.0\refint\Environics Analytics.dll
+C:\Environics Analytics\obj\Debug\net6.0\Environics Analytics.pdb
+C:\Environics Analytics\obj\Debug\net6.0\Environics Analytics.genruntimeconfig.cache
+C:\Environics Analytics\obj\Debug\net6.0\ref\Environics Analytics.dll
