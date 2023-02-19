@@ -7,6 +7,16 @@ import Datatable from "./UI/Datatable";
 import { Response } from "../Models/response.model";
 import { GridColDef } from "@mui/x-data-grid";
 
+const columns: GridColDef[] = [
+  { field: "storeID", headerName: "StoreId", width: 100 },
+  { field: "postalCode", headerName: "PostalCode", width: 120 },
+  { field: "productType", headerName: "ProductType", width: 120 },
+  { field: "customerID", headerName: "CustomerId", width: 400 },
+  { field: "totalVisits", headerName: "TotalVisits", width: 150 },
+  { field: "dollarsSpend", headerName: "DollarsSpend", width: 150 },
+  { field: "segmentCode", headerName: "PrizmCode", width: 150 },
+];
+
 const Form: React.FC = () => {
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [showSegmentCodeCol, setShowSegmentCodeCol] = useState<boolean>(false);
@@ -18,16 +28,6 @@ const Form: React.FC = () => {
     length: 0,
     fileName: "",
   });
-
-  const columns: GridColDef[] = [
-    { field: "storeID", headerName: "StoreId", width: 150 },
-    { field: "postalCode", headerName: "PostalCode", width: 150 },
-    { field: "productType", headerName: "ProductType", width: 150 },
-    { field: "customerID", headerName: "CustomerId", width: 450 },
-    { field: "totalVisits", headerName: "TotalVisits", width: 150 },
-    { field: "dollarsSpend", headerName: "DollarsSpend", width: 150 },
-    { field: "segmentCode", headerName: "PrizmCode", width: 150 },
-  ];
 
   const isPathValid: boolean = filePath.length > 0;
 
