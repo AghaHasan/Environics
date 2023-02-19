@@ -12,11 +12,13 @@ namespace Environics_Analytics.Controllers
     public class CustomerVisitsController : ControllerBase
     {
         private IConfiguration _configuration;
+        private readonly Microsoft.AspNetCore.Hosting.IHostingEnvironment _hostingEnvironment;
         private readonly ICustomerVisitService _customerVisitService;
-        public CustomerVisitsController(IConfiguration iconfig, ICustomerVisitService customerVisitService)
+        public CustomerVisitsController(IConfiguration iconfig, ICustomerVisitService customerVisitService, Microsoft.AspNetCore.Hosting.IHostingEnvironment hostingEnvironment)
         {
             _configuration = iconfig;
             _customerVisitService = customerVisitService;
+            _hostingEnvironment = hostingEnvironment;
         }
 
         //get request to get the first 6 rows in excel file
@@ -31,16 +33,16 @@ namespace Environics_Analytics.Controllers
                     return BadRequest("File path needs to be .csv");
                 }
 
-                //get the base path from appSettings
-                string basePath = _configuration.GetValue<string>("BasePath");
+                //get the base path
+                string basePath = _hostingEnvironment.ContentRootPath;
 
                 // Read the first 6 rows of the file
                 var lines = await System.IO.File.ReadAllLinesAsync(basePath + filePath);
-                var preview = lines.Take(6).ToList();
+                var preview = lines.Take(7).ToList();
 
                 var response = new Response<CustomerVisit>
                 {
-                    Length = preview.Count,
+                    Length = preview.Count - 1,
                     Data = await _customerVisitService.GetCustomerVisits(preview),
                     FileName = Path.GetFileName(filePath)
                 };
@@ -67,7 +69,7 @@ namespace Environics_Analytics.Controllers
                     return BadRequest("File path needs to be .csv");
                 }
 
-                string basePath = _configuration.GetValue<string>("BasePath");
+                string basePath = _hostingEnvironment.ContentRootPath;
 
                 // Read all lines of the file
                 var lines = await System.IO.File.ReadAllLinesAsync(basePath + filePath);

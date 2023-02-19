@@ -1,7 +1,7 @@
 import React from "react";
 import Typography from "@mui/material/Typography";
 import { DataGrid, GridColDef } from "@mui/x-data-grid";
-import { CustomerVisit } from "../Models/customerVisits.model";
+import { Response } from "../Models/response.model";
 
 const columns: GridColDef[] = [
   { field: "storeID", headerName: "StoreId", width: 150 },
@@ -14,34 +14,28 @@ const columns: GridColDef[] = [
 ];
 
 type FileContentProps = {
-  rows: CustomerVisit[];
   loading: boolean;
-  fileName: string;
-  dataLength: number;
   showPrizmCol: boolean;
+  fileContent: Response;
 }
 
-const FileContent: React.FC<FileContentProps> = ({
-  rows,
-  loading,
-  fileName,
-  dataLength,
-  showPrizmCol,
-}) => {
+const Grid: React.FC<FileContentProps> = (props) => {
+  const { fileContent, loading, showPrizmCol } = props;
+
   return (
     <div style={{ height: 650, width: "100wh", padding: 10 }}>
     <Typography variant="h5" gutterBottom>
-      File: {fileName}
+      File: {fileContent.fileName}
     </Typography>
     <Typography variant="h5" gutterBottom>
-      Records: {dataLength}
+      Records: {fileContent.length}
     </Typography>
     <Typography variant="h5" gutterBottom>
       File contents preview
     </Typography>
     <DataGrid
       getRowId={(row) => row.customerID}
-      rows={rows}
+      rows={fileContent.data}
       columns={
         showPrizmCol
           ? columns
@@ -55,4 +49,4 @@ const FileContent: React.FC<FileContentProps> = ({
   );
 };
 
-export default FileContent;
+export default Grid;

@@ -11,6 +11,9 @@ namespace Environics_Analytics.Services
         {
             var list = new List<CustomerVisit>();
 
+            // Create a dictionary to group the CustomerVisit objects by postal code
+            var groups = new Dictionary<string, List<CustomerVisit>>();
+
             for (int i = 1; i < records.Count; i++)
             {
                 var elements = records[i].Split(',');
@@ -21,9 +24,10 @@ namespace Environics_Analytics.Services
                     PostalCode = elements[2],
                     TotalVisits = int.Parse(elements[3]),
                     DollarsSpend = decimal.Parse(elements[4]),
-                    ProductType = elements[5],
-                    SegmentCode = !isPreview ? await GetPrizmId(elements[2]) : 0
+                    ProductType = elements[5]
                 };
+
+                visit.SegmentCode = !isPreview ? await GetPrizmId(visit.PostalCode) : 0;
 
                 list.Add(visit);
             }

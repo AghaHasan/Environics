@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import TextField from "@mui/material/TextField";
 import Grid from "@mui/material/Grid";
 import Button from "@mui/material/Button";
-import AlertBar from "../Components/UI/Alert";
+import AlertBar from "./UI/Alert";
 
 type FormProps = {
   onRefresh: () => void;
@@ -12,7 +12,7 @@ type FormProps = {
   loading: boolean;
 };
 
-const InputFileForm: React.FC<FormProps> = (props) => {
+const Form: React.FC<FormProps> = (props) => {
   const [filePath, setFilePath] = useState<string>("");
   const [showErrorAlert, setShowErrorAlert] = useState<boolean>(false);
   const [errorMessage, setErrorMessage] = useState<string>("");
@@ -115,4 +115,4 @@ const InputFileForm: React.FC<FormProps> = (props) => {
   );
 }
 
-export default InputFileForm;
+export default Form;
