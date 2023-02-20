@@ -1,5 +1,5 @@
 #Technologies used
-1) React for front end with material UI.
+1) React with TypeScript and material UI for front end.
 2) .Net core for backend.
 
 #Steps to run the application:
