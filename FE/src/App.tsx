@@ -1,13 +1,16 @@
+import React from "react";
 import "./App.css";
-import Form from "./Components/Form";
+import DataForm from "./Components/DataForm";
 import Header from "./Components/UI/Header";
 
-export default function App() {
+const App: React.FC = () => {
   return (
     <>
       <Header />
 
-      <Form></Form>
+      <DataForm></DataForm>
     </>
   );
 }
+
+export default App;

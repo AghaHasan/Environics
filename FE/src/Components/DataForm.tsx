@@ -14,10 +14,10 @@ const columns: GridColDef[] = [
   { field: "customerID", headerName: "CustomerId", width: 400 },
   { field: "totalVisits", headerName: "TotalVisits", width: 150 },
   { field: "dollarsSpend", headerName: "DollarsSpend", width: 150 },
-  { field: "segmentCode", headerName: "PrizmCode", width: 150 },
+  { field: "segmentCode", headerName: "SegmentCode", width: 150 },
 ];
 
-const Form: React.FC = () => {
+const DataForm: React.FC = () => {
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [showSegmentCodeCol, setShowSegmentCodeCol] = useState<boolean>(false);
   const [filePath, setFilePath] = useState<string>("");
@@ -73,7 +73,7 @@ const Form: React.FC = () => {
   };
 
   return (
-    <Grid container spacing={2} style={{ marginTop: "0px" }}>
+    <Grid container spacing={2}>
       <Grid item xs={12}>
         {showErrorAlert && (
           <AlertBar message={errorMessage} severity="error"></AlertBar>
@@ -99,6 +99,7 @@ const Form: React.FC = () => {
         >
           Preview
         </Button>
+
         <Button
           disabled={!isPathValid || isLoading}
           variant="contained"
@@ -123,4 +124,4 @@ const Form: React.FC = () => {
   );
 };
 
-export default Form;
+export default DataForm;
