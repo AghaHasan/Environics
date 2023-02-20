@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FPVLMyeo9IU07rZgj8pwPUyuyFfu6gU+It8AjcZ7INIzHzMm1ndncmhQHVAamWXcQ7UASBw9EkST0jQ8rCVlLg==",
+  "dgSpecHash": "MHudjtpMuZOpuPwm4xtE7ifs3JIhplo4pnV13BbDZActbGt1DMknUH/tLYgqeEMIOjc3m0oW7av0ynLHPgeSCA==",
   "success": true,
-  "projectFilePath": "C:\\Environics Analytics\\Environics Analytics.csproj",
+  "projectFilePath": "C:\\Users\\92347\\Documents\\GitHub\\Environics\\BE\\Environics Analytics.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\92347\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.2.0\\microsoft.aspnetcore.cors.2.2.0.nupkg.sha512",
     "C:\\Users\\92347\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",

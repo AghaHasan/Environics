@@ -26,3 +26,31 @@ C:\Environics Analytics\obj\Debug\net6.0\refint\Environics Analytics.dll
 C:\Environics Analytics\obj\Debug\net6.0\Environics Analytics.pdb
 C:\Environics Analytics\obj\Debug\net6.0\Environics Analytics.genruntimeconfig.cache
 C:\Environics Analytics\obj\Debug\net6.0\ref\Environics Analytics.dll
+C:\Users\92347\Documents\GitHub\Environics\BE\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\92347\Documents\GitHub\Environics\BE\bin\Debug\net6.0\appsettings.json
+C:\Users\92347\Documents\GitHub\Environics\BE\bin\Debug\net6.0\Environics Analytics.exe
+C:\Users\92347\Documents\GitHub\Environics\BE\bin\Debug\net6.0\Environics Analytics.deps.json
+C:\Users\92347\Documents\GitHub\Environics\BE\bin\Debug\net6.0\Environics Analytics.runtimeconfig.json
+C:\Users\92347\Documents\GitHub\Environics\BE\bin\Debug\net6.0\Environics Analytics.dll
+C:\Users\92347\Documents\GitHub\Environics\BE\bin\Debug\net6.0\Environics Analytics.pdb
+C:\Users\92347\Documents\GitHub\Environics\BE\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\92347\Documents\GitHub\Environics\BE\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\92347\Documents\GitHub\Environics\BE\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\92347\Documents\GitHub\Environics\BE\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\92347\Documents\GitHub\Environics\BE\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\92347\Documents\GitHub\Environics\BE\obj\Debug\net6.0\Environics Analytics.csproj.AssemblyReference.cache
+C:\Users\92347\Documents\GitHub\Environics\BE\obj\Debug\net6.0\Environics Analytics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\92347\Documents\GitHub\Environics\BE\obj\Debug\net6.0\Environics Analytics.AssemblyInfoInputs.cache
+C:\Users\92347\Documents\GitHub\Environics\BE\obj\Debug\net6.0\Environics Analytics.AssemblyInfo.cs
+C:\Users\92347\Documents\GitHub\Environics\BE\obj\Debug\net6.0\Environics Analytics.csproj.CoreCompileInputs.cache
+C:\Users\92347\Documents\GitHub\Environics\BE\obj\Debug\net6.0\Environics Analytics.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\92347\Documents\GitHub\Environics\BE\obj\Debug\net6.0\Environics Analytics.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\92347\Documents\GitHub\Environics\BE\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\92347\Documents\GitHub\Environics\BE\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\92347\Documents\GitHub\Environics\BE\obj\Debug\net6.0\scopedcss\bundle\Environics Analytics.styles.css
+C:\Users\92347\Documents\GitHub\Environics\BE\obj\Debug\net6.0\Environics Analytics.csproj.CopyComplete
+C:\Users\92347\Documents\GitHub\Environics\BE\obj\Debug\net6.0\Environics Analytics.dll
+C:\Users\92347\Documents\GitHub\Environics\BE\obj\Debug\net6.0\refint\Environics Analytics.dll
+C:\Users\92347\Documents\GitHub\Environics\BE\obj\Debug\net6.0\Environics Analytics.pdb
+C:\Users\92347\Documents\GitHub\Environics\BE\obj\Debug\net6.0\Environics Analytics.genruntimeconfig.cache
+C:\Users\92347\Documents\GitHub\Environics\BE\obj\Debug\net6.0\ref\Environics Analytics.dll

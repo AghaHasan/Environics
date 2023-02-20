@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Environics Analytics\\Environics Analytics.csproj": {}
+    "C:\\Users\\92347\\Documents\\GitHub\\Environics\\BE\\Environics Analytics.csproj": {}
   },
   "projects": {
-    "C:\\Environics Analytics\\Environics Analytics.csproj": {
+    "C:\\Users\\92347\\Documents\\GitHub\\Environics\\BE\\Environics Analytics.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Environics Analytics\\Environics Analytics.csproj",
+        "projectUniqueName": "C:\\Users\\92347\\Documents\\GitHub\\Environics\\BE\\Environics Analytics.csproj",
         "projectName": "Environics Analytics",
-        "projectPath": "C:\\Environics Analytics\\Environics Analytics.csproj",
+        "projectPath": "C:\\Users\\92347\\Documents\\GitHub\\Environics\\BE\\Environics Analytics.csproj",
         "packagesPath": "C:\\Users\\92347\\.nuget\\packages\\",
-        "outputPath": "C:\\Environics Analytics\\obj\\",
+        "outputPath": "C:\\Users\\92347\\Documents\\GitHub\\Environics\\BE\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\92347\\AppData\\Roaming\\NuGet\\NuGet.Config",
